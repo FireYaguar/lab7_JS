@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.7.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "start": "node --env-file-if-exists=.env src/index.ts",
+    "test": "vitest run",
+    "bench:backpressure": "node scripts/backpressure.ts",
+    "bench:block": "node scripts/block-demo.ts",
+    "bench:load": "node scripts/load.ts"
+  },
+  "dependencies": {
+    "shared": "*",
+    "ws": "^8.22.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.2"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "label": "before",
+  "seconds": 30,
+  "bots": 8,
+  "frameIntervalMs": {
+    "n": 1800,
+    "p50": 16.7,
+    "p95": 16.7,
+    "p99": 16.8,
+    "max": 16.8
+  },
+  "frameWorkMs": {
+    "n": 1801,
+    "p50": 0.6,
+    "p95": 1.8,
+    "p99": 2.2,
+    "max": 3.4
+  },
+  "allocMBperSec": 1.5,
+  "gc": {
+    "minor": {
+      "count": 17,
+      "totalMs": 21.7,
+      "n": 17,
+      "p50": 1.25,
+      "p95": 2.34,
+      "p99": 2.34,
+      "max": 2.34
+    },
+    "major": {
+      "count": 3,
+      "totalMs": 16.8,
+      "n": 3,
+      "p50": 6.21,
+      "p95": 7.26,
+      "p99": 7.26,
+      "max": 7.26
+    }
+  },
+  "allocators": [
+    {
+      "fn": "drawNetgraph index-MDIlE34t.js:1631",
+      "MB": 10.7,
+      "share": 24
+    },
+    {
+      "fn": "next :0",
+      "MB": 5.9,
+      "share": 13.3
+    },
+    {
+      "fn": "decodeEntity index-MDIlE34t.js:1081",
+      "MB": 3.7,
+      "share": 8.2
+    },
+    {
+      "fn": "stateItem index-MDIlE34t.js:1216",
+      "MB": 3.4,
+      "share": 7.7
+    },
+    {
+      "fn": "drawBackground index-MDIlE34t.js:478",
+      "MB": 2.9,
+      "share": 6.4
+    },
+    {
+      "fn": "drawExplosion index-MDIlE34t.js:555",
+      "MB": 2.1,
+      "share": 4.7
+    },
+    {
+      "fn": "update world-CmXuC-E_.js:317",
+      "MB": 2,
+      "share": 4.5
+    },
+    {
+      "fn": "decodeSnapshot index-MDIlE34t.js:1148",
+      "MB": 2,
+      "share": 4.4
+    },
+    {
+      "fn": "drawScene index-MDIlE34t.js:561",
+      "MB": 1.7,
+      "share": 3.8
+    },
+    {
+      "fn": "items index-MDIlE34t.js:1486",
+      "MB": 1.7,
+      "share": 3.7
+    }
+  ]
+}

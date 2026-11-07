@@ -1,0 +1,9 @@
+node_modules
+dist
+*.log
+.DS_Store
+.env
+server/logs
+client/dist-profile
+test-results
+playwright-report

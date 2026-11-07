@@ -1,0 +1,93 @@
+{
+  "label": "worker",
+  "seconds": 30,
+  "bots": 8,
+  "frameIntervalMs": {
+    "n": 1801,
+    "p50": 16.7,
+    "p95": 16.7,
+    "p99": 16.8,
+    "max": 16.8
+  },
+  "frameWorkMs": {
+    "n": 1802,
+    "p50": 0.4,
+    "p95": 1.6,
+    "p99": 1.9,
+    "max": 4.1
+  },
+  "mainThreadBusyPct": 43.6,
+  "allocMBperSec": 0.8,
+  "gc": {
+    "minor": {
+      "count": 26,
+      "totalMs": 29.7,
+      "n": 26,
+      "p50": 1.13,
+      "p95": 1.96,
+      "p99": 2.82,
+      "max": 2.82
+    },
+    "major": {
+      "count": 4,
+      "totalMs": 18.2,
+      "n": 4,
+      "p50": 5.71,
+      "p95": 6.38,
+      "p99": 6.38,
+      "max": 6.38
+    }
+  },
+  "allocators": [
+    {
+      "fn": "(anonymous) index-By1SNmw-.js:1402",
+      "MB": 6.3,
+      "share": 26.1
+    },
+    {
+      "fn": "items index-By1SNmw-.js:1605",
+      "MB": 2.3,
+      "share": 9.6
+    },
+    {
+      "fn": "drawScene index-By1SNmw-.js:585",
+      "MB": 2.3,
+      "share": 9.5
+    },
+    {
+      "fn": "next :0",
+      "MB": 1.9,
+      "share": 7.6
+    },
+    {
+      "fn": "drawNetgraph index-By1SNmw-.js:1754",
+      "MB": 1.3,
+      "share": 5.3
+    },
+    {
+      "fn": "set :0",
+      "MB": 1.3,
+      "share": 5.2
+    },
+    {
+      "fn": "onSnapshot index-By1SNmw-.js:1507",
+      "MB": 1.2,
+      "share": 4.8
+    },
+    {
+      "fn": "drawExplosion index-By1SNmw-.js:574",
+      "MB": 0.9,
+      "share": 3.8
+    },
+    {
+      "fn": "drawHud index-By1SNmw-.js:665",
+      "MB": 0.7,
+      "share": 3.1
+    },
+    {
+      "fn": "stateItem index-By1SNmw-.js:1312",
+      "MB": 0.6,
+      "share": 2.3
+    }
+  ]
+}

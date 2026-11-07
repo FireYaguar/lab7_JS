@@ -1,0 +1,47 @@
+[
+  {
+    "clients": 8,
+    "entities": 29,
+    "tickP50": 0.493,
+    "tickP99": 1.263,
+    "lateP99": 0.834,
+    "downKBps": 183,
+    "kicked": 0
+  },
+  {
+    "clients": 32,
+    "entities": 90,
+    "tickP50": 0.815,
+    "tickP99": 1.616,
+    "lateP99": 0.825,
+    "downKBps": 2254,
+    "kicked": 0
+  },
+  {
+    "clients": 64,
+    "entities": 148,
+    "tickP50": 1.403,
+    "tickP99": 2.944,
+    "lateP99": 0.942,
+    "downKBps": 8195,
+    "kicked": 0
+  },
+  {
+    "clients": 128,
+    "entities": 244,
+    "tickP50": 2.166,
+    "tickP99": 5.02,
+    "lateP99": 0.843,
+    "downKBps": 27762,
+    "kicked": 0
+  },
+  {
+    "clients": 256,
+    "entities": 345,
+    "tickP50": 4.136,
+    "tickP99": 8.416,
+    "lateP99": 1.838,
+    "downKBps": 91222,
+    "kicked": 0
+  }
+]
